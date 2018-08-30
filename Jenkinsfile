@@ -15,8 +15,8 @@ pipeline {
   stages { 
     stage('test'){
       steps{
-	 							sh "pwd"
-         sh "curl -I -f "http://localhost:5000/v81/js/site.min.js" || exit 1"
+	 sh "pwd"
+         sh "curl -I -f http://localhost:5000/v81/js/site.min.js || exit 1"
       }
     }
    stage('docker build'){
