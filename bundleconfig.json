@@ -1,0 +1,220 @@
+﻿[
+  {
+    "outputFileName": "wwwroot/v67/css/site.min.css",
+    "inputFiles": [
+      "wwwroot/css/foundation.css",
+      "wwwroot/css/LR-font.css",
+      "wwwroot/css/home.css",
+      "wwwroot/css/search.css",
+      "wwwroot/css/site.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/v67/css/foundation.min.css",
+    "inputFiles": [
+      "wwwroot/css/foundation.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/v67/css/list.min.css",
+    "inputFiles": [
+      "wwwroot/css/list.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/v67/css/home.min.css",
+    "inputFiles": [
+      "wwwroot/css/twentytwenty-no-compass.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/v67/js/site.min.js",
+    "inputFiles": [
+      "wwwroot/js/proportionalScroll.js",
+      "wwwroot/js/imageResizer.js",
+      "wwwroot/js/mostViewed.js",
+      "wwwroot/js/textFill.js",
+      "wwwroot/js/site.js",
+      "wwwroot/js/search.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "wwwroot/v67/js/home.min.js",
+    "inputFiles": [
+      "wwwroot/js/jquery.event.move.js",
+      "wwwroot/js/jquery.twentytwenty.js",
+      "wwwroot/js/home.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "wwwroot/v67/js/thenAndNow.min.js",
+    "inputFiles": [
+      "wwwroot/js/jquery.event.move.js",
+      "wwwroot/js/jquery.twentytwenty.js",
+      "wwwroot/js/thenAndNow.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "wwwroot/v67/js/edict.min.js",
+    "inputFiles": [
+      "wwwroot/js/edictSelector.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "wwwroot/v67/js/post.min.js",
+    "inputFiles": [
+      "wwwroot/js/post.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "wwwroot/v67/js/contact.min.js",
+    "inputFiles": [
+      "wwwroot/js/contactUs.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "wwwroot/v67/js/cajafuerte.min.js",
+    "inputFiles": [
+      "wwwroot/js/cajaFuerte.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "wwwroot/v67/js/legal.min.js",
+    "inputFiles": [
+      "wwwroot/js/edictSelector.js",
+      "wwwroot/js/legalPager.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "wwwroot/v67/js/video.min.js",
+    "inputFiles": [
+      "wwwroot/js/videoPager.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "wwwroot/v67/js/journalist.min.js",
+    "inputFiles": [
+      "wwwroot/js/journalistPager.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "wwwroot/v67/js/legaljournalist.min.js",
+    "inputFiles": [
+      "wwwroot/js/legalJournalistPager.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "wwwroot/v67/js/section.min.js",
+    "inputFiles": [
+      "wwwroot/js/sectionPager.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "wwwroot/v67/js/social.min.js",
+    "inputFiles": [
+      "wwwroot/js/socialPager.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "wwwroot/v67/js/standardsearch.min.js",
+    "inputFiles": [
+      "wwwroot/js/standardSearchPager.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "wwwroot/v67/js/anchors.min.js",
+    "inputFiles": [
+      "wwwroot/js/anchors.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "wwwroot/v67/js/list.min.js",
+    "inputFiles": [
+      "wwwroot/js/modernizr.custom.js",
+      "wwwroot/js/imagesloaded.pkgd.min.js",
+      "wwwroot/js/masonry.pkgd.min.js",
+      "wwwroot/js/classie.js",
+      "wwwroot/js/cbpGridGallery.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": true
+  }
+]
