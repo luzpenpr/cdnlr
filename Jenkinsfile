@@ -13,7 +13,7 @@ pipeline {
     booleanParam(name: 'DOCKER_STACK_RM', defaultValue: false, description: 'Remove previous stack.  This is required if you have updated any secrets or configs as these cannot be updated. ')
   }
   stages { 
-    stage('test'){
+
     stage('test'){
       agent {
           docker { 
