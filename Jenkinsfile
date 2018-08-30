@@ -1,5 +1,5 @@
 pipeline {
-  agent { Dockerfile true }
+  agent { dockerfile true }
   options {
     buildDiscarder(logRotator(numToKeepStr: '5'))
   }
