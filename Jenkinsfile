@@ -14,8 +14,16 @@ pipeline {
   }
   stages { 
     stage('test'){
+    stage('test'){
+      agent {
+          docker { 
+	     image '332011377173.dkr.ecr.us-east-1.amazonaws.com/lrcdn'
+	     customWorkspace "$JENKINS_HOME/workspace/$BUILD_TAG"
+	  }
+      }
       steps{
 	 sh "pwd"
+	 sh "sleep 30"
          sh "curl -I -f http://localhost:5000/v81/js/site.min.js || exit 1"
       }
     }
