@@ -5,5 +5,5 @@ services:
                 image: 332011377173.dkr.ecr.us-east-1.amazonaws.com/lrcdn:latest
                 restart: always
                 ports:
-                        - 5001:5000
+                        - 5002:5000
 
